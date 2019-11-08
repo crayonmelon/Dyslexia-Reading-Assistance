@@ -1,0 +1,35 @@
+@font-face {
+
+  font-family: 'OpenDyslexic';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic.ttf') format('truetype');
+}
+
+body {
+	background-color: #fff6da;
+	padding: 0;
+	width: 150px;
+	text-align: center;
+	font-family: OpenDyslexic;
+
+}
+
+button {
+	 font: bold 16px OpenDyslexic, serif;
+
+	display: inline-block;
+	padding: 10px 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+}
+
+#yellowColour {background-color: #ffffcc;}
+#blueColour {background-color: #b3d9ff;}
+#redColour {background-color: #ffcccc;}
+#greenColour {background-color: #ccffcc;}
+#pinkColour {background-color: #ffccff;}
+
+#buttonClicked {
+
+	background-color: #FFE76A;
+}

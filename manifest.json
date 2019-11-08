@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "ct.png",
+      "default_popup": "popup.html",
+      "default_title": "Dyslexia Reading Assistant"
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Makes reading Easier",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg5JC7TTXAHYxU8TXdonBBa4R5eHBd2Z9gJxAmpBV/VQBKMtktPBiO4F4JqxOKwR+DfcZSGgUz++RWmD9dD7HXb4iFGMC1dwfbANgpPJLX/cDcpG/z8oTp7ZGKrUeOgAvk1+JlH1lIZGpYZpyt23ki34Z/xNMW8a0zb9kUnAbDcOKr7/8IdgZvETMQUj+gp8EOimQYnMzzLCOLYIME/Chb12YIEeS6yINxC/phItDFAoGR4+x8Rm7+PdvtlkhfR1/bXYndWkR8qBtE2O/DoPvy3Wt0o8og/owIk6R82iPJDiJVwVp2NbGiwv3o8RxNh9YINIpDkwAlGSh9k/8fIzdxwIDAQAB",
+   "manifest_version": 2,
+   "name": "Dyslexia Reading Assistant",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1",
+   "web_accessible_resources": [ "fonts/OpenDyslexic.ttf" ]
+}
